@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@config": ["config.js"],
+            "@components/*": ["components/*"]
+        }
+    },
+    "include": ["next-env.d.ts", "**/*.jsx", "**/*.js"]
+}
